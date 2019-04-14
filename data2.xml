@@ -1,0 +1,41 @@
+<countries>
+    <country type="HOT">
+        <hottestMonth>June</hottestMonth>
+        <averageTemperature>25.0</averageTemperature>
+        <name>Armenia</name>
+        <language>HY</language>
+
+        <cities>
+            <city>
+                <nameCity>Erevan</nameCity>
+                <population>1.0</population>
+                <capital>true</capital>
+            </city>
+            <city>
+                <nameCity>Ararat</nameCity>
+                <population>0.002</population>
+                <capital>false</capital>
+            </city>
+        </cities>
+    </country>
+
+    <country type="COLD">
+        <polarNight>true</polarNight>
+        <name>Finland</name>
+        <language>FI</language>
+
+        <cities>
+            <city>
+                <nameCity>Helsinki</nameCity>
+                <population>0.6</population>
+                <capital>true</capital>
+            </city>
+            <city>
+                <nameCity>Tampere</nameCity>
+                <population>0.2</population>
+                <capital>false</capital>
+            </city>
+        </cities>
+    </country>
+
+</countries>

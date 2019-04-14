@@ -1,0 +1,97 @@
+<countries>
+<country type="COLD">
+    <polarNight>true</polarNight>
+    <name>Russia</name>
+    <language>RU</language>
+
+    <cities>
+        <city>
+            <nameCity>Moscow</nameCity>
+            <population>12.0</population>
+            <capital>true</capital>
+        </city>
+        <city>
+            <nameCity>Saint-Petersburg</nameCity>
+            <population>5.0</population>
+            <capital>false</capital>
+        </city>
+    </cities>
+</country>
+
+<country type="COLD">
+    <polarNight>false</polarNight>
+    <name>Germany</name>
+    <language>GE</language>
+
+    <cities>
+        <city>
+            <nameCity>Berlin</nameCity>
+            <population>4.0</population>
+            <capital>true</capital>
+        </city>
+        <city>
+            <nameCity>Dresden</nameCity>
+            <population>1.0</population>
+            <capital>false</capital>
+        </city>
+    </cities>
+</country>
+
+<country type="HOT">
+    <hottestMonth>June</hottestMonth>
+    <averageTemperature>22.0</averageTemperature>
+    <name>France</name>
+    <language>FR</language>
+
+    <cities>
+        <city>
+            <nameCity>Paris</nameCity>
+            <population>3.0</population>
+            <capital>true</capital>
+        </city>
+    </cities>
+</country>
+
+<country type="HOT">
+    <hottestMonth>Jule</hottestMonth>
+    <averageTemperature>21.0</averageTemperature>
+    <name>USA</name>
+    <language>EN</language>
+
+    <cities>
+        <city>
+            <nameCity>San Francisco</nameCity>
+            <population>0.8</population>
+            <capital>false</capital>
+        </city>
+    </cities>
+</country>
+<country type="HOT">
+    <hottestMonth>August</hottestMonth>
+    <averageTemperature>25.0</averageTemperature>
+    <name>Costa Rica</name>
+    <language>EN</language>
+
+    <cities>
+        <city>
+            <nameCity>Limon</nameCity>
+            <population>0.06</population>
+            <capital>false</capital>
+        </city>
+    </cities>
+</country>
+
+<country type="COLD">
+    <polarNight>true</polarNight>
+    <name>England</name>
+    <language>EN</language>
+
+    <cities>
+        <city>
+            <nameCity>London</nameCity>
+            <population>8.1</population>
+            <capital>true</capital>
+        </city>
+    </cities>
+</country>
+</countries>
