@@ -5,7 +5,7 @@ import common.business.domain.BaseDomain;
 import java.util.Objects;
 
 public class City extends BaseDomain<Long> {
-//    protected Long cityId;
+    protected Long cityId;
     private String nameCity;
     private double population;
     private boolean capital;
@@ -57,13 +57,13 @@ public class City extends BaseDomain<Long> {
         this.capital = capital;
     }
 
-//    public Long getCityId() {
-//        return cityId;
-//    }
-//
-//    public void setCityId(Long cityId) {
-//        this.cityId = cityId;
-//    }
+    public Long getCityId() {
+        return cityId;
+    }
+
+    public void setCityId(Long cityId) {
+        this.cityId = cityId;
+    }
 
     @Override
     public String toString() {
